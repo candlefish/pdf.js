@@ -168,10 +168,9 @@ function getViewerConfiguration() {
         'pageSize': document.getElementById('pageSizeField'),
       },
     },
-    browseFiles: {
-        overlayName: 'browseFilesOverlay',
-        container: document.getElementById('browseFilesOverlay'),
-        closeButton: document.getElementById('browseFilesClose'),
+    taoManager: {
+        overlayName: 'taoManagerOverlay',
+        container: document.getElementById('taoManagerOverlay'),
     },
     errorWrapper: {
       container: document.getElementById('errorWrapper'),
